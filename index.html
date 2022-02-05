@@ -1,0 +1,46 @@
+<style>
+
+    textarea{
+      height:75%;
+      width:100%;
+    }
+   #lang{
+     position : fixed;
+     right:0;
+   }
+    #black{
+  background-color:black;
+  color:white;
+  height:20%
+    }
+    #btn{
+      margin :10px;
+      padding:5px;
+      background-color:FFD523;
+      border:none;
+    }
+    </style>
+  <div >
+    <h1>
+    <label for="lang">Type your code here</label>
+  
+  <select id="lang">
+    <option value="0">python</option>
+    <option value="4">javascript</option>
+    <option value="7">c</option>
+    <option value="77">cpp</option>
+    <option value="8">java</option>
+  </select>
+    
+        </h1>
+    
+    <textarea id="white">  
+      //write your code
+    </textarea>
+  </div>
+  <div >
+    <textarea id="black"> OUTPUT: 
+    </textarea>
+  </div>
+  <button id="btn">compile</button>
+  <script src="index.js"></script>
